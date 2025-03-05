@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liber Prosopographicus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#"><img src="home.png" alt="news" class="nav-icon"></a></li>
+                <li><a href="#"><img src="news.png" alt="news" class="nav-icon"></a></li>
+                <li><a href="#"><img src="profile.png" alt="profile" class="nav-icon"></a></li>
+                <li><a href="#"><img src="message.png" alt="message" class="nav-icon"></a></li>
+                <li class="notification-container"><img src="notification.png" alt="notification" class="nav-icon">
+                    <div class="notification-content">
+                            <p class="notifs">someone's sent you a friend request</p>
+                            <p class="notifs">your friend posted a while ago</p>
+                            <p class="notifs">you need to update your security</p>
+                    </div>
+                </li>    
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="main-content">
+            <aside class="sidebar">
+                <section class="profile-section">
+                    <img src="prof.jpg" class="profile-image" alt="User Profile">
+                    <h2>Renhiel Maghanoy</h2>
+                    <p><strong>Location:</strong> Japan, USA</p>
+                    <p><strong>Occupation:</strong> Student</p>\
+                    <p><strong>Birthdate:</strong> June 07, 2005</p>
+                </section>
+
+                <section class="interests">
+                    <h3>Interests:</h3>
+                <ul>
+                    <li class="tag">Music</li>
+                    <li class="tag">Programming</li>
+                    <li class="tag">Casual</li>
+                    <li class="tag">Games</li>
+                    <li class="tag">Arts</li>
+                </ul>
+                </section>
+
+                <section class="photos">
+                    <h3>Photos</h3>
+                    <img src="photo1.jpg" class="photo" alt="photo">
+                    <img src="photo2.jpg" class="photo" alt="photo">
+                    <img src="photo3.jpg" class="photo" alt="photo">
+                </section>
+                
+                <section class="notification">
+                    <button class="close-b" onclick="this.parentElement.style.display='none'">
+                        <i class="fa fa-times">X</i>
+                    </button>
+                    <p><strong>Hey!</strong></p>
+                    <p>People are looking at your profile. Find out who.</p>
+                </section>
+
+                
+            </aside>
+
+            <section class="feed">
+                <section class="status-update">
+                    <h3>Status Update</h3>
+                    <form>
+                        <textarea placeholder="What's on your mind, bruh?" required></textarea>
+                        <button type="submit">Post</button>
+                    </form>
+                </section>
+
+                <article class="post">
+                    <img src="paloy.png" class="profile-image-post" alt="Angelo Burlat">
+                    <div class="post-content">
+                        <p><strong>Angelo Burlat</strong></p>
+                        <p>OMNI MAN SOLOS!</p>
+                        <button class="button-like"></button>
+                        <button class="button-comment"></button>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="paloy kaayo.jpg" class="profile-image-post" alt="James Jaraula">
+                    <div class="post-content">
+                        <p><strong>James Jaraula</strong></p>
+                        <p>LAWESBRA>>></p>
+                        <button class="button-like"></button>
+                        <button class="button-comment"></button>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="ako si levi.jpg" class="profile-image-post" alt="levi baron">
+                    <div class="post-content">
+                        <p><strong>Levi Baron</strong></p>
+                        <p>Beach outing with my friend</p>
+                        <img src="bonding.jpg" class="image-post" alt="levi post">
+                        <button class="button-like"></button>
+                        <button class="button-comment"></button>
+                    </div>
+                </article>
+
+                <article class="post">
+                    <img src="LUIS.jpg" class="profile-image-post" alt="luis Tapdasan">
+                    <div class="post-content">
+                        <p><strong>Luis John Tapdasan</strong></p>
+                        <p>Shopping spree</p>
+                        <img src="luisbra.jpg" class="image-post" alt="luis postt">
+                        <button class="button-like"></button>
+                        <button class="button-comment"></button>
+                    </div>
+                </article>
+
+            </section>
+
+            
+
+            <aside class="sidebar sidebar-right">
+                <section class="events">
+                    <h3>Upcoming Events</h3>
+                    <img src="new year.jpg" class="new-year-event" alt="new-year">
+                    <p>New Year - Friday 09:00 AM</p>
+                    <button class="info-button"></button>
+                </section>
+                <section class="friend-requests">
+                    <h3>Friend Requests</h3>
+                    <article class="friend-request">
+                        <img src="taga lawesbra.jpg" class="profile-image" alt="Phil Josh Tongco">
+                        <p><strong>Phil Josh Tongco</strong></p>
+                        <button class="friend-req-button-add"></button>
+                        <button class="friend-req-button-no"></button>
+                    </article>
+                    <article class="friend-request">
+                        <img src="lebay.jpg" class="profile-image" alt="Levi Lumagbas">
+                        <p><strong>Levi Lumagbas</strong></p>
+                        <button class="friend-req-button-add"></button>
+                        <button class="friend-req-button-no"></button>
+                    </article>
+
+
+                </section>
+            </aside>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy;Liber Prosopographicus All rights reserved.</p>
+    </footer>
+</body>
+</html>
